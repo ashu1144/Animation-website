@@ -26,7 +26,7 @@ const Navbar = () => {
   }, [lastScrollY]);
 
   return (
-    <div className={` ${!show? "hidden":""}  fixed z-[999] w-full text-white px-8 py-8 font-["Neue Montreals"] flex justify-between items-center `}>
+    <div className={` ${!show? "hidden":""}  fixed z-[999] w-[100vw]  md:w-full text-white px-8 py-8 font-["Neue Montreals"] flex justify-between items-center `}>
         <div className='logo ml-5'>
          <div className="w-[72px] h-[30px] flex items-center justify-center">
           <motion.img

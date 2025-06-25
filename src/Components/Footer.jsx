@@ -3,18 +3,18 @@ import { motion, scale } from "framer-motion";
 
 function Footer() {
   return (
-    <div className="grid grid-cols-2 bg-white text-shadow-zinc-900 px-[3vw]">
+    <div className="grid grid-cols-1 mlg:grid-cols-2 bg-white text-shadow-zinc-900 px-[3vw]">
       <div className="pt-10">
-        <h1 className=' font-["Neue Montreals"] font-extrabold leading-[5vw] uppercase text-8xl font-[]'>
+        <h1 className=' font-["Neue Montreals"] font-extrabold leading-[10vw] md:leading-[5vw] uppercase lg:text-8xl text-[12vw] font-[]'>
           eye- <br />
           opening
         </h1>
       </div>
-      <div className="flex flex-col gap-[2vw] pt-10 pb-20">
-        <h1 className=' font-["Neue Montreals"] font-extrabold leading-[5vw] uppercase text-8xl font-[]'>
+      <div className="flex flex-col gap-[2vw] mt-[2vw] md:pt-10 pb-20">
+        <h1 className=' font-["Neue Montreals"] font-extrabold leading-[5vw] uppercase text-[12vw] md:text-8xl font-[]'>
           presentation
         </h1>
-        <div className="flex flex-row gap-[18vw] mt-12">
+        <div className="flex flex-col md:flex-row gap-[18vw] mt-12">
           <div className="flex flex-col gap-10">
             <div className="w-18">
               <h1>s:</h1>

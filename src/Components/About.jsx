@@ -11,7 +11,7 @@ function About() {
       data-scroll-speed="0.7"
       className="w-full py-20 bg-[#FEE101] rounded-t-4xl font-['Neue_Montreal'] -mb-[26vw]  "
     >
-      <h1 className=" px-8 sm:px-20 text-6xl xl:leading-[4.5vw] leading-[10vw]  text-black ">
+      <h1 className=" px-8 sm:px-20 text-[11vw] md:text-6xl xl:leading-[4.5vw] leading-[18vw]  text-black ">
         Bananaaa! squealed a Minion, grinning wildly. “Bello! Tulaliloo ti
         amo!” Sirens blared “Bee do! Bee do!” Minions giggled, yelled “Poopaye!”
         and “La Papaya!” Pure silly mayhem!
@@ -26,7 +26,7 @@ function About() {
           <h3>What you can expect</h3>
         </div>
         <div></div>
-        <div className="leading-7 w-106 pr-35 flex flex-col gap-10 items-center ">
+        <div className="leading-7 lg:w-106 lg:pr-35 flex flex-col gap-10 items-center ">
           <h3>
             We help the banana‑loving teams and tiny startups that make the world spin — they save the planet, do crypto magic, build shiny chips, and cook fancy Michelin‑yummies!
           </h3>
