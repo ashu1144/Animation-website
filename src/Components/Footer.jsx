@@ -3,15 +3,15 @@ import { motion, scale } from "framer-motion";
 
 function Footer() {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 bg-white text-shadow-zinc-900 px-[3vw]">
-      <div className="pt-10">
-        <h1 className=' font-["Neue Montreals"] font-extrabold leading-[10vw] md:leading-[5vw] uppercase lg:text-8xl text-[12vw] font-[]'>
+    <div className="grid grid-cols-1 lg:grid-cols-2 bg-white text-shadow-zinc-900 px-[3vw]">
+      <div className="pt-10 ">
+        <h1 className=' font-["Neue Montreals"] font-extrabold leading-[10vw] md:leading-[9vw] lg:leading-[5vw] uppercase lg:text-[6.2vw] text-[12vw] font-[]'>
           eye- <br />
           opening
         </h1>
       </div>
-      <div className="flex flex-col gap-[2vw] mt-[2vw] md:pt-10 pb-20">
-        <h1 className=' font-["Neue Montreals"] font-extrabold leading-[5vw] uppercase text-[12vw] md:text-8xl font-[]'>
+      <div className="flex flex-col gap-[2vw] mt-[2vw] md:pt-1 pb-20">
+        <h1 className=' font-["Neue Montreals"] font-extrabold leading-[5vw] uppercase text-[12vw] lg:text-[6.2vw] font-[]'>
           presentation
         </h1>
         <div className="flex flex-col md:flex-row gap-[18vw] mt-12">
@@ -64,7 +64,7 @@ function Footer() {
             </div>
           </div>
           <div className="flex flex-col-reverse  gap-5">
-            <div className="w-25 flex flex-col items-start gap-5 ">
+            <div className="w-25 flex flex-col items-start gap-5 pb-2.5 ">
             {["Contact us", "Insights", "About us", "Our work", "Servies"].map((el, index) => (
                 <motion.h1
                   whileHover="hover"
