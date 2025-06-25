@@ -3,7 +3,7 @@ import { motion, scale } from "framer-motion";
 
 function Footer() {
   return (
-    <div className="grid grid-cols-1 mlg:grid-cols-2 bg-white text-shadow-zinc-900 px-[3vw]">
+    <div className="grid grid-cols-1 ml:grid-cols-2 bg-white text-shadow-zinc-900 px-[3vw]">
       <div className="pt-10">
         <h1 className=' font-["Neue Montreals"] font-extrabold leading-[10vw] md:leading-[5vw] uppercase lg:text-8xl text-[12vw] font-[]'>
           eye- <br />
