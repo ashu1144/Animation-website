@@ -1,6 +1,8 @@
 import React from 'react'
 import { HiArrowUpRight } from "react-icons/hi2";
 import { color, motion, scale} from "framer-motion";
+import minion from '../assets/minion1.png'
+
 const LandingPage = () => {
     const ismall = window.innerWidth<700
   return (
@@ -13,7 +15,7 @@ const LandingPage = () => {
                 <motion.div
                     initial={{width:0}}
                     animate={{width:"10vw"}}
-                    transition={{ease:[0.76, 0, 0.24, 1], duration:1}}
+                    transition={{ease:[0.76, 0, 0.24, 1], duration:1 ,delay:2}}
                     className='bg-red-400 lg:mt-3 w-38 h-[8vw] lg:h-[5.4vw]'>
                     <img className='h-full w-full' src="https://i.pinimg.com/736x/68/f1/71/68f171a7671807151e8c7615043e4e57.jpg" alt="" />
                 </motion.div>
@@ -27,7 +29,12 @@ const LandingPage = () => {
                 </h1>
             </div>
         </div>
-{/* bottom-[10vw] */}
+        <motion.div
+        initial={{x:"-38%",scale:"360%",y:"-80%"}}
+        animate={{x:"10%",scale:"50%",y:"45%"}}
+        transition={{ease:[0.76, 0, 0.24, 1], duration:2}}
+        
+         className=' hidden xl:flex top-5 right-[5vw] absolute'><img src={minion} alt="" /></motion.div>
         <div className='absolute bottom-[24vw]  w-full md:bottom-[150px] xl:bottom-[8vw]' >
            <hr className="border-t-2 border-zinc-700 " />
         <div className=' px-6 py-2 gap-2 flex justify-between md:items-center text-[16.55px] md:flex-row flex-col sm:items-start '>
