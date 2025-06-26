@@ -15,9 +15,11 @@ const Navbar = () => {
       if (window.scrollY > lastScrollY) {
         // Scroll down
         setShow(false);
+        setOpen(false)
       } else {
         // Scroll up
         setShow(true);
+
       }
       setLastScrollY(window.scrollY);
     };

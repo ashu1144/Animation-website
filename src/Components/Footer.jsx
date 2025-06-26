@@ -6,8 +6,8 @@ function Footer() {
     <div className="grid grid-cols-1 lg:grid-cols-2 bg-white text-shadow-zinc-900 px-[3vw]">
       <div className="pt-10 ">
         <h1 className=' font-["Neue Montreals"] font-extrabold leading-[10vw] md:leading-[9vw] lg:leading-[5vw] uppercase lg:text-[6.2vw] text-[12vw] font-[]'>
-          eye- <br />
-          opening
+          Mischief-<br />
+          Laughter
         </h1>
       </div>
       <div className="flex flex-col gap-[2vw] mt-[2vw] md:pt-1 pb-20">

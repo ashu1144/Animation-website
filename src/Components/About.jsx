@@ -4,11 +4,12 @@ import { motion, scale } from "framer-motion";
 
 function About() {
   const links = ["Instagram", "Behance", "Facebook", "Linkedin"];
+  const isSmall = window.innerWidth < 768;
   return (
     <div
       data-scroll
       data-scroll-section
-      data-scroll-speed="0.7"
+      data-scroll-speed={isSmall ? "0.1" : "0.7"}
       className="w-full py-20 bg-[#FEE101] rounded-t-4xl font-['Neue_Montreal'] -mb-[26vw]  "
     >
       <h1 className=" px-8 sm:px-20 text-[11vw] md:text-6xl xl:leading-[4.5vw] leading-[18vw]  text-black ">
@@ -38,7 +39,7 @@ function About() {
         </div>
 
         <div className="relative justify-center  items-center gap-4 pb-6">
-          <div className=" absolute left-[12vw] top-[20vh] flex flex-col gap-5 w-18 overflow-hidden">
+          <div className=" absolute items-center top-[5vw] md:left-[28vw] lg:left-[12vw] lg:top-[20vh] flex flex-col gap-5 w-20 overflow-hidden">
             {links.map((text, index) => (
               <motion.div
                 key={index}
@@ -62,7 +63,7 @@ function About() {
         </div>
       </div>
 
-      <div className="pt-20   ">
+      <div className="md:pt-20 pt-[45vw]   ">
         <hr />
       </div>
 
