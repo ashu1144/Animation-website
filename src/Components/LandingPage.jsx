@@ -9,7 +9,7 @@ const LandingPage = () => {
     <div  data-scroll data-scroll-section data-scroll-speed={ismall?"-0.7":"-0.3"} className='relative w-full h-full bg-zinc-900 text-white pt-1 -mb-[2vh] xl:-mb-2'>
         <div className='textStructure  px-[3vw] mt-[35vw] sm:mt-[28vw] md:mt-[21vh] '>
             <div className="masker font-semibold ">
-                <h1 className=" tracking-wide text-[13vw] lg:text-[8vw]  leading-[0.7] font-extrabold md:tracking-tighter uppercase  "> Bananas and</h1>
+                <h1 className=" tracking-wide text-[11.5vw] lg:text-[8vw]  leading-[0.7] font-extrabold md:tracking-tighter uppercase  "> Bananas and</h1>
             </div>
             <div className="masker font-semibold flex items-center ml-2  ">
                 <motion.div
