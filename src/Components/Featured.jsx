@@ -44,7 +44,7 @@ function Featured() {
               ))}
             </div>
 
-            <div className="hidden z-10 absolute text-4xl sm:text-[5vw] left-30 top-56 sm:left-[30vw]  sm:top-[22vw] group-hover:flex">
+            <div className="hidden z-10 absolute text-4xl sm:text-[5vw] left-15 top-46 sm:left-[30vw]  sm:top-[22vw] group-hover:flex">
               {"SALIENCE_LAB".split("").map((el, index) => (
                 <motion.span
                   className="uppercase text-[#CDEA68] font-bold"
@@ -95,10 +95,10 @@ function Featured() {
                 )
               )}
             </div>
-            <div className=" hidden z-10 absolute sm:text-[5vw] text-3xl left-16 top-196 sm:left-[36vw] sm:top-[22vw] group-hover:flex">
+            <div className=" hidden z-10 absolute sm:text-[5vw] text-4xl left-22 top-160 sm:left-[36vw] sm:top-[22vw] group-hover:flex">
               {"spaceship".split("").map((el, index) => (
                 <motion.span
-                  className="uppercase text-[#CDEA68] font-bold"
+                  className="uppercase text-[#ffff] font-bold"
                   key={index}
                   initial={"-300%"}
                   animate={isHovering ? { y: "0%" ,opacity:1 } : { y: "-20%" , opacity:0 }}

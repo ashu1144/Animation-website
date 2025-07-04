@@ -9,7 +9,7 @@ const Navbar = () => {
      const [show, setShow] = useState(true);
      const [lastScrollY, setLastScrollY] = useState(window.scrollY);
 
-      
+     
     useEffect(() => {
     const handleScroll = () => {
       if (window.scrollY > lastScrollY) {
@@ -53,14 +53,14 @@ const Navbar = () => {
 
       {isOpen && (
         <motion.div
-        initial={{ y: -50, opacity: 0 }}
+        initial={{ y: -10, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
-        exit={{ y: -50, opacity: 0 }}
+        exit={{ y: -10, opacity: 0 }}
         transition={{ duration: 0.3, ease: "easeOut" }}
         
-        className="absolute top-20 left-0 w-full bg-zinc-900 p-4 text-white flex flex-col gap-3 md:hidden">
+        className="absolute top-22 left-0 w-full bg-zinc-900/90 p-4 text-white flex flex-col gap-3 md:hidden">
             {["services","Our work", "About Us" , "Insights" ,"contact Us" ].map((items , index)=>(
-                <a className='p-2 pl-2 text-2xl border-t-1 border-zinc-500'  key={index}>{items}</a>
+                <a className='p-2 pl-2 text-2xl border-b-1 border-zinc-500'  key={index}>{items}</a>
             ))}
         </motion.div>
       )}
